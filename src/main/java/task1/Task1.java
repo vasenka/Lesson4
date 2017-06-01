@@ -10,7 +10,7 @@ public class Task1 {
     public static void main(String[] args) throws URISyntaxException {
 
         File fileIn = new File(Task1.class.getResource("fileIn.txt").toURI());
-        File fileOut = new File("src/main/resources/task1/fileOut.txt");
+        File fileOut = new File("results/task1/fileOut.txt");
         readAndWrite(fileIn, fileOut);
 
 

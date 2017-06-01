@@ -7,7 +7,7 @@ public class Task3 {
     public static void main(String[] args) {
 
         String fileIn = "utf8.txt";
-        File fileOut = new File("src/main/resources/task3/utf16.txt");
+        File fileOut = new File("results/task3/utf16.txt");
         writeToUtf16(fileIn,fileOut);
     }
     static void writeToUtf16(String fileIn, File fileOut){

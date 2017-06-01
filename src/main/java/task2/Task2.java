@@ -11,7 +11,7 @@ import java.util.Map;
 public class Task2 {
     public static void main(String[] args) throws URISyntaxException{
         File fileIn = new File("src/main/resources/task2/fileIn.txt");
-        File fileOut = new File("src/main/resources/task2/fileOut.txt");
+        File fileOut = new File("results/task2/fileOut.txt");
 
 
         readAndWrite(fileIn, fileOut);
